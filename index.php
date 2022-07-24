@@ -38,10 +38,9 @@ include_once('koneksi.php');
                             <?php foreach($kelas as $kl) : ?>
                             <option value="<?= $kl; ?>"><?= $kl; ?></option>
                             <?php endforeach; ?>
-
-                            
                         </select>
                     </div>
+                    
                     <div class="form-group">
                         <label for="alamat">Alamat</label>
                         <input type="text" name="alamat" placeholder="Alamat" class="form-control" required>
